@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "name": "pomodoro-timer",
+  "version": "1.0.0",
+  "description": "Pomodoro Timer app for freeCodeCamp",
+  "type": "module",
+  "main": "index.js",
+  "source": "index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "author": "Afeef",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.10.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.69.5"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.10.2",
+    "buffer": "^5.5.0||^6.0.0",
+    "events": "^3.1.0",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.3"
+  }
+}
